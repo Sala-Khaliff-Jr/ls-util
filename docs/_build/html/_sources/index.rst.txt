@@ -10,7 +10,7 @@ Welcome to ls-util's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-   modules
+   main
 
 Indices and tables
 ==================
