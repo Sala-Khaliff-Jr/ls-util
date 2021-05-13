@@ -12,15 +12,16 @@ Prefered to create a Virtual environment and run
 
 `python3 main.py`
 
-## Generating sphinx documentation
 
-Navigate to docs directory
+# Generating sphinx documentation
+
+## Navigate to docs directory
 
 `cd docs`
 
 *this is the directory we create to seperate code from docs*
 
-To initialize Sphinx 
+## To initialize Sphinx 
 
 `sphinx-quickstart`
 
@@ -28,7 +29,7 @@ To initialize Sphinx
 
 *modify the index.rst as needed*
 
-To generate HTML Document
+## To generate HTML Document
 
 `make html`
 
@@ -36,7 +37,7 @@ To generate HTML Document
 
 the output is populated to `_build` directory
 
-Locating the Output files
+## Locating the Output files
 
 `cd _build`
 
@@ -47,13 +48,13 @@ To view the index file
 *use the browser of your choice*
 
 
-## Modifying the HTML Style
+# Modifying the HTML Style
 
 [sphinx-themes](https://sphinx-themes.org/)
 
-*Example:*
+## *Example:*
 
-To install *Read The Docs* template
+## To install *Read The Docs* template
 
 `pip install sphinx-rtd-theme`
 
